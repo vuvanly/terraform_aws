@@ -5,7 +5,7 @@ rectangle "Island web portal" as Iwp
 cloud "AWS Cloud" {
   
   storage "Amazon S3 \nbucket" as S3
-  artifact "Bucket policy" as Bp
+  artifact "Bucket policy111" as Bp
   S3 <- Bp 
   
 }

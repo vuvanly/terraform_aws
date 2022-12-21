@@ -6,3 +6,7 @@ Migrate an existing website to static hosting on Amazon S3 in order to improve w
 ## Infra Structure
 
 ![Infra Structure](./infra_structure.svg)
+
+## Resources
+* Amazon S3
+* Bucket policy
