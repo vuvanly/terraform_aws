@@ -5,7 +5,7 @@ Migrate an existing website to static hosting on Amazon S3 in order to improve w
 
 ## Infra Structure
 
-![Infra Structure](./infra_structure.svg)
+![Infra Structure](./diagram/infra_structure.svg)
 
 ## Resources
 * Amazon S3
@@ -96,6 +96,7 @@ resource "aws_s3_bucket_public_access_block" "main" {
 
 ### 6. Setup encryption for objects
 ```terraform
+# main.tf
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
 resource "aws_s3_bucket_server_side_encryption_configuration" "main" {
   bucket = aws_s3_bucket.mybucket.bucket
@@ -108,8 +109,9 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "main" {
 }
 ```
 
-### 6. Upload objects
+### 7. Upload objects
 ```terraform
+# main.tf
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_object
 resource "aws_s3_object" "index_file" {
   bucket = aws_s3_bucket.mybucket.id
@@ -142,7 +144,7 @@ resource "aws_s3_object" "target_file_csv" {
 }
 ```
 
-### 6. Setup static website hosting and output endpoint
+### 8. Setup static website hosting and output endpoint
 ```terraform
 # main.tf
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_website_configuration
@@ -162,7 +164,7 @@ output "website_endpoint" {
 }
 ```
 
-### 6. Setup bucket policy
+### 9. Setup bucket policy
 * Create `s3_policy.json` file from `web_resources/policy.txt` file, and replace `Your_Bucket_ARN` with `${bucket_arn}` so we can pass bucket ARN to policy later.
 ```json
 {
@@ -197,7 +199,7 @@ resource "aws_s3_bucket_policy" "static_web_policy" {
 }
 ```
 
-### 6. Create Infra
+### 10. Create Infra
 * Run `terraform init` to init terraform environment and download provider
 * Run `terraform validate` to validate syntax
 * Run `terraform plan` to see what will be changed in infrastructure
@@ -206,11 +208,11 @@ resource "aws_s3_bucket_policy" "static_web_policy" {
 
 *You can run after each step to enjoy the incremental change*
 
-### 7. Destroy Infra
+### 11. Destroy Infra
 * Do not forget to run `terraform destroy` to destroy all resources on AWS after you are done with it.
 
 
-### 8. Improve
+### 12. Improve
 You can use upload multiple files in a folder one time instead of uploading each file individually with following method.
 ```terraform
 # https://developer.hashicorp.com/terraform/language/meta-arguments/for_each
