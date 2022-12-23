@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+rectangle "Stabilization\nDevices" as SD
+hexagon "Island \nstabilization \nsystem" as Iss
+frame Region {
+    frame "Availability Zone A (us-east-1a)" {
+        hexagon "Computational\nModule A" as CMA #Orange
+        hexagon "Amazon\nEBS Volume" as EBS_1 #LightBlue
+        CMA --> EBS_1
+    }
+
+    frame "Availability Zone B (us-east-1b)" {
+        hexagon "Computational\nModule B" as CMB #Orange
+        hexagon "Amazon\nEBS Volume" as EBS_2 #LightBlue
+        CMB --> EBS_2
+    }
+}
+
+SD <--> Iss
+Iss --> CMA
+Iss --> CMB
+@enduml

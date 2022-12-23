@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="294px" preserveAspectRatio="none" style="width:878px;height:294px;background:#FFFFFF;" version="1.1" viewBox="0 0 878 294" width="878px" zoomAndPan="magnify"><defs/><g><!--MD5=[cb86fd8765f8f19f3dd169ac0d580158]
+cluster Region--><g id="cluster_Region"><rect fill="none" height="281" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="504" x="368" y="7"/><path d="M428,7 L428,16.4883 L418,26.4883 L368,26.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="371" y="21.5352">Region</text></g><!--MD5=[b0c1f82b68214ec46e7b3fa50c1e07b1]
+cluster Availability Zone A (us-east-1a)--><g id="cluster_Availability Zone A (us-east-1a)"><rect fill="none" height="95" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="456" x="392" y="50"/><path d="M636,50 L636,59.4883 L626,69.4883 L392,69.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="234" x="395" y="64.5352">Availability Zone A (us-east-1a)</text></g><!--MD5=[b80681947f662140a6b82df3707f98a9]
+cluster Availability Zone B (us-east-1b)--><g id="cluster_Availability Zone B (us-east-1b)"><rect fill="none" height="95" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="456" x="392" y="169"/><path d="M636,169 L636,178.4883 L626,188.4883 L392,188.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="234" x="395" y="183.5352">Availability Zone B (us-east-1b)</text></g><!--MD5=[6b04642f20b6a8859d8cf98b1438fb1d]
+entity CMA--><g id="elem_CMA"><polygon fill="#FFA500" points="612,107,561,85.5,459,85.5,408,107,459,128.5,561,128.5,612,107" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="459" y="104.0352">Computational</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="459" y="120.5234">Module A</text></g><!--MD5=[9bc91cd07d8408557adba18bc57c3980]
+entity EBS_1--><g id="elem_EBS_1"><polygon fill="#ADD8E6" points="832,107,792,85.5,712,85.5,672,107,712,128.5,792,128.5,832,107" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="712" y="104.0352">Amazon</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="712" y="120.5234">EBS Volume</text></g><!--MD5=[c8cbbf76947afba5cc9e1c4f55ccfb16]
+entity CMB--><g id="elem_CMB"><polygon fill="#FFA500" points="612,226,561,204.5,459,204.5,408,226,459,247.5,561,247.5,612,226" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="459" y="223.0352">Computational</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="459" y="239.5234">Module B</text></g><!--MD5=[222865dddb64c138bf0f0aad36c7228a]
+entity EBS_2--><g id="elem_EBS_2"><polygon fill="#ADD8E6" points="832,226,792,204.5,712,204.5,672,226,712,247.5,792,247.5,832,226" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="712" y="223.0352">Amazon</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="712" y="239.5234">EBS Volume</text></g><!--MD5=[f0e91d5aa74c2411969e7ef072c6f268]
+entity SD--><g id="elem_SD"><rect fill="#F1F1F1" height="52.9766" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="7" y="140.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="17" y="164.0352">Stabilization</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="17" y="180.5234">Devices</text></g><!--MD5=[6c53307ebd37da7e10daac390d232318]
+entity Iss--><g id="elem_Iss"><polygon fill="#F1F1F1" points="348,167,304,137.5,216,137.5,172,167,216,196.5,304,196.5,348,167" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="216" y="156.0352">Island</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="216" y="172.5234">stabilization</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="216" y="189.0117">system</text></g><!--MD5=[ba2afbc6ecc868aba5880a8097b043f2]
+link CMA to EBS_1--><g id="link_CMA_EBS_1"><path d="M613.13,107 C630.4,107 648.18,107 664.98,107 " fill="none" id="CMA-to-EBS_1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="669.62,107,660.62,103,664.62,107,660.62,111,669.62,107" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[830343827e8dfa1f1b88e299fad9ce0e]
+link CMB to EBS_2--><g id="link_CMB_EBS_2"><path d="M613.13,226 C630.4,226 648.18,226 664.98,226 " fill="none" id="CMB-to-EBS_2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="669.62,226,660.62,222,664.62,226,660.62,230,669.62,226" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6d970d623d83af3ca1c91ae5552e51ad]
+link SD to Iss--><g id="link_SD_Iss"><path d="M118.84,167 C133.36,167 149.29,167 165.05,167 " fill="none" id="SD-Iss" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="169.79,167,160.79,163,164.79,167,160.79,171,169.79,167" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="113.91,167,122.91,171,118.91,167,122.91,163,113.91,167" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8472f2639443b6a747d528de1ea7371d]
+link Iss to CMA--><g id="link_Iss_CMA"><path d="M325.51,151.39 C360.11,143.02 402.8,132.69 438.3,124.11 " fill="none" id="Iss-to-CMA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="442.91,122.99,433.2242,121.2051,438.0486,124.159,435.0947,128.9834,442.91,122.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bca7c84f30e08616333677d814c52b8a]
+link Iss to CMB--><g id="link_Iss_CMB"><path d="M325.84,182.42 C360.16,190.59 402.38,200.64 437.64,209.02 " fill="none" id="Iss-to-CMB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="442.21,210.11,434.3781,204.1383,437.3454,208.9545,432.5292,211.9218,442.21,210.11" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4796366836f823ee281d857a2509f225]
+@startuml
+left to right direction
+rectangle "Stabilization\nDevices" as SD
+hexagon "Island \nstabilization \nsystem" as Iss
+frame Region {
+    frame "Availability Zone A (us-east-1a)" {
+        hexagon "Computational\nModule A" as CMA #Orange
+        hexagon "Amazon\nEBS Volume" as EBS_1 #LightBlue
+        CMA - -> EBS_1
+    }
+
+    frame "Availability Zone B (us-east-1b)" {
+        hexagon "Computational\nModule B" as CMB #Orange
+        hexagon "Amazon\nEBS Volume" as EBS_2 #LightBlue
+        CMB - -> EBS_2
+    }
+}
+
+SD <- -> Iss
+Iss - -> CMA
+Iss - -> CMB
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: US
+--></g></svg>
