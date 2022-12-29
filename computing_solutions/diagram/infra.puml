@@ -1,0 +1,14 @@
+@startuml
+hexagon "EC2 \nInstance \n (t2.micro)" as ec2 #LightBlue
+hexagon "AWS Systems \nManager" as asm #LightPink
+hexagon "EC2 Instance \nConnect" as eic #LightYellow
+hexagon "Browsers" as br #LightGrey
+hexagon "Terminal" as tm #LightGrey
+rectangle "m4.large" as m4
+
+asm --> ec2 : Console
+br --> ec2 : HTTP:80
+ec2 <-- eic : Console
+ec2 -[#Green]-> m4 : Upgrade
+ec2 <-- tm : SSH
+@enduml

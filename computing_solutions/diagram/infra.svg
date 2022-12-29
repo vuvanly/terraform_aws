@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="312px" preserveAspectRatio="none" style="width:479px;height:312px;background:#FFFFFF;" version="1.1" viewBox="0 0 479 312" width="479px" zoomAndPan="magnify"><defs/><g><!--MD5=[37e53c992d02dbef82096056dafaf252]
+entity ec2--><g id="elem_ec2"><polygon fill="#ADD8E6" points="367,155.5,331.5,126,260.5,126,225,155.5,260.5,185,331.5,185,367,155.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="260.5" y="144.5352">EC2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="260.5" y="161.0234">Instance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="264.5" y="177.5117">(t2.micro)</text></g><!--MD5=[92e2ad58d19962135e7ff93f22958550]
+entity asm--><g id="elem_asm"><polygon fill="#FFB6C1" points="294,27.5,247.5,6,154.5,6,108,27.5,154.5,49,247.5,49,294,27.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="154.5" y="24.5352">AWS Systems</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="154.5" y="41.0234">Manager</text></g><!--MD5=[6bfc62edb4d4589495adc004447cc3ca]
+entity eic--><g id="elem_eic"><polygon fill="#FFFFE0" points="200,283.5,154,262,62,262,16,283.5,62,305,154,305,200,283.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="62" y="280.5352">EC2 Instance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="62" y="297.0234">Connect</text></g><!--MD5=[c7004816a3f1911862cb3f241eb280b4]
+entity br--><g id="elem_br"><polygon fill="#D3D3D3" points="453,27.5,422,14.5,360,14.5,329,27.5,360,40.5,422,40.5,453,27.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="360" y="33.0352">Browsers</text></g><!--MD5=[dd666d95682ed53f534c4d51d7665f6e]
+entity tm--><g id="elem_tm"><polygon fill="#D3D3D3" points="357,283.5,326.5,270.5,265.5,270.5,235,283.5,265.5,296.5,326.5,296.5,357,283.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="265.5" y="289.0352">Terminal</text></g><!--MD5=[cc4f4930a1cfb2cf5282458aa51e872b]
+entity m4--><g id="elem_m4"><rect fill="#F1F1F1" height="36.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="392.5" y="265.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="402.5" y="289.0352">m4.large</text></g><!--MD5=[096f0d1b7ace63bae5ff8af6d2a1f7fe]
+link asm to ec2--><g id="link_asm_ec2"><path d="M216.69,49.31 C231.29,68.67 253.31,97.88 270.45,120.61 " fill="none" id="asm-to-ec2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="273.33,124.44,271.0916,114.8489,270.314,120.452,264.7109,119.6745,273.33,124.44" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="253" y="92.5684">Console</text></g><!--MD5=[b6e8e0f85c425f35b96cc7e9cb67c302]
+link br to ec2--><g id="link_br_ec2"><path d="M381.89,40.58 C368.18,58.77 341.71,93.88 321.76,120.33 " fill="none" id="br-to-ec2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="318.78,124.29,327.3882,119.5048,321.7869,120.2952,320.9965,114.6938,318.78,124.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="353" y="92.5684">HTTP:80</text></g><!--MD5=[ff363e13ad2db1f6024e89bf4836107e]
+reverse link ec2 to eic--><g id="link_ec2_eic"><path d="M252.03,185.97 C217.39,209.19 169.94,240.98 139.13,261.63 " fill="none" id="ec2-backto-eic" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="255.79,183.45,246.0867,185.1372,251.6363,186.2334,250.5401,191.783,255.79,183.45" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="209" y="228.5684">Console</text></g><!--MD5=[9ebaeca123ccf328bb9b5034a5f68844]
+link ec2 to m4--><g id="link_ec2_m4"><path d="M327.43,185.41 C352.51,208.47 387.07,240.25 409.71,261.08 " fill="none" id="ec2-to-m4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="413.24,264.33,409.3355,255.2882,409.5643,260.9404,403.9121,261.1692,413.24,264.33" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="377" y="228.5684">Upgrade</text></g><!--MD5=[b9489c27ab8ee1fbc9b8a36536a11f5f]
+reverse link ec2 to tm--><g id="link_ec2_tm"><path d="M296,191.87 C296,218.04 296,252.13 296,270.12 " fill="none" id="ec2-backto-tm" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="296,186.92,292,195.92,296,191.92,300,195.92,296,186.92" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="297" y="228.5684">SSH</text></g><!--MD5=[c2b8519be42e8040c87c1e58a0a2b5c4]
+@startuml
+hexagon "EC2 \nInstance \n (t2.micro)" as ec2 #LightBlue
+hexagon "AWS Systems \nManager" as asm #LightPink
+hexagon "EC2 Instance \nConnect" as eic #LightYellow
+hexagon "Browsers" as br #LightGrey
+hexagon "Terminal" as tm #LightGrey
+rectangle "m4.large" as m4
+
+asm - -> ec2 : Console
+br - -> ec2 : HTTP:80
+ec2 <- - eic : Console
+ec2 -[#Green]-> m4 : Upgrade
+ec2 <- - tm : SSH
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: US
+--></g></svg>
