@@ -1,0 +1,25 @@
+@startuml
+hexagon "Internet" as internet #LightGrey
+frame "AWS Cloud" {
+    hexagon "Internet \n Gateway" as ig #LightPink
+    frame "Virtual Private Cloud (10.10.0.0/16)" {
+        hexagon "Router" as router #LightPink
+
+        frame "Private subnet (10.10.2.0/24)" #LightBlue {
+            frame "Security Group" as dsg #Orange {
+                hexagon "DB \n Server" as dbs #Pink
+            }
+        }
+
+        frame "Public subnet (10.10.0.0/24)" #LightGreen {
+            frame "Security Group" as wsg #Pink {
+                hexagon "Web \n Server" as ws #Orange
+            }
+        }
+    }
+}
+internet -> ig
+ig -> router
+router -> ws
+ws -> dbs
+@enduml
