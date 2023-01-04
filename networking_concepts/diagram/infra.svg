@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="308px" preserveAspectRatio="none" style="width:944px;height:308px;background:#FFFFFF;" version="1.1" viewBox="0 0 944 308" width="944px" zoomAndPan="magnify"><defs/><g><!--MD5=[929d5cd9b6f7dd857cf22ad0bc8baa87]
+cluster AWS Cloud--><g id="cluster_AWS Cloud"><rect fill="none" height="295" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="795" x="143" y="7"/><path d="M231,7 L231,16.4883 L221,26.4883 L143,26.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="146" y="21.5352">AWS Cloud</text></g><!--MD5=[0670a01e0e84d41f12ef3c200a67d7f2]
+cluster Virtual Private Cloud (10.10.0.0/16)--><g id="cluster_Virtual Private Cloud (10.10.0.0/16)"><rect fill="none" height="228" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="614" x="300" y="50"/><path d="M565,50 L565,59.4883 L555,69.4883 L300,69.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="255" x="303" y="64.5352">Virtual Private Cloud (10.10.0.0/16)</text></g><!--MD5=[ca64161172ad44cefc9b709215c5d1c4]
+cluster Private subnet (10.10.2.0/24)--><g id="cluster_Private subnet (10.10.2.0/24)"><rect fill="#ADD8E6" height="161" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="224" x="666" y="93"/><path d="M884,93 L884,102.4883 L874,112.4883 L666,112.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="208" x="669" y="107.5352">Private subnet (10.10.2.0/24)</text></g><!--MD5=[2a17ff865ae7c73927c2c3e0143a8b89]
+cluster dsg--><g id="cluster_dsg"><rect fill="#FFA500" height="94" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="126" x="690" y="136"/><path d="M805,136 L805,145.4883 L795,155.4883 L690,155.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="693" y="150.5352">Security Group</text></g><!--MD5=[b646094f1854e99e21468e5cf1d8412e]
+cluster Public subnet (10.10.0.0/24)--><g id="cluster_Public subnet (10.10.0.0/24)"><rect fill="#90EE90" height="161" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="218" x="424" y="93"/><path d="M636,93 L636,102.4883 L626,112.4883 L424,112.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="427" y="107.5352">Public subnet (10.10.0.0/24)</text></g><!--MD5=[82fd4f9c6ced68ba552784ca281ba8a0]
+cluster wsg--><g id="cluster_wsg"><rect fill="#FFC0CB" height="94" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="126" x="470" y="136"/><path d="M585,136 L585,145.4883 L575,155.4883 L470,155.4883 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="473" y="150.5352">Security Group</text></g><!--MD5=[0a8a611a83b4fe7f3150f67a91268285]
+entity ig--><g id="elem_ig"><polygon fill="#FFB6C1" points="281,192.5,250.5,171,189.5,171,159,192.5,189.5,214,250.5,214,281,192.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="189.5" y="189.5352">Internet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="193.5" y="206.0234">Gateway</text></g><!--MD5=[7342edd9a184d8607391f4c130efbf01]
+entity router--><g id="elem_router"><polygon fill="#FFB6C1" points="408,192.5,385,179.5,339,179.5,316,192.5,339,205.5,385,205.5,408,192.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="339" y="198.0352">Router</text></g><!--MD5=[68c6ea65b1c2d2f493bb75a9e586eb6d]
+entity dbs--><g id="elem_dbs"><polygon fill="#FFC0CB" points="800,192.5,776.5,171,729.5,171,706,192.5,729.5,214,776.5,214,800,192.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="729.5" y="189.5352">DB</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="733.5" y="206.0234">Server</text></g><!--MD5=[c9750dafa4ae4a01f4cdbdcf14d4b946]
+entity ws--><g id="elem_ws"><polygon fill="#FFA500" points="580,192.5,556.5,171,509.5,171,486,192.5,509.5,214,556.5,214,580,192.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="509.5" y="189.5352">Web</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="513.5" y="206.0234">Server</text></g><!--MD5=[53a7890647be042c111b8a807eed420f]
+entity internet--><g id="elem_internet"><polygon fill="#D3D3D3" points="124,192.5,97,179.5,43,179.5,16,192.5,43,205.5,97,205.5,124,192.5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="43" y="198.0352">Internet</text></g><!--MD5=[878a1259165a3e63fd9fe3bae3831188]
+link internet to ig--><g id="link_internet_ig"><path d="M125.08,192.5 C134.12,192.5 143.15,192.5 152.19,192.5 " fill="none" id="internet-to-ig" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="156.94,192.5,147.94,188.5,151.94,192.5,147.94,196.5,156.94,192.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[50676ada601ae8f074f1e222059a2abc]
+link ig to router--><g id="link_ig_router"><path d="M281.85,192.5 C290.75,192.5 299.65,192.5 308.55,192.5 " fill="none" id="ig-to-router" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="313.52,192.5,304.52,188.5,308.52,192.5,304.52,196.5,313.52,192.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d1fe5dc7efddb866be198fd9962659ce]
+link router to ws--><g id="link_router_ws"><path d="M408.76,192.5 C432.22,192.5 455.68,192.5 479.15,192.5 " fill="none" id="router-to-ws" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="483.92,192.5,474.9315,188.4743,478.92,192.4857,474.9086,196.4743,483.92,192.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[549552489752dcdff429c76719c1358e]
+link ws to dbs--><g id="link_ws_dbs"><path d="M580.7,192.5 C620.2,192.5 659.7,192.5 699.21,192.5 " fill="none" id="ws-to-dbs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="704.04,192.5,695.04,188.5,699.04,192.5,695.04,196.5,704.04,192.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f7674a86f2b622ad8cebe76995bcf2cf]
+@startuml
+hexagon "Internet" as internet #LightGrey
+frame "AWS Cloud" {
+    hexagon "Internet \n Gateway" as ig #LightPink
+    frame "Virtual Private Cloud (10.10.0.0/16)" {
+        hexagon "Router" as router #LightPink
+
+        frame "Private subnet (10.10.2.0/24)" #LightBlue {
+            frame "Security Group" as dsg #Orange {
+                hexagon "DB \n Server" as dbs #Pink
+            }
+        }
+
+        frame "Public subnet (10.10.0.0/24)" #LightGreen {
+            frame "Security Group" as wsg #Pink {
+                hexagon "Web \n Server" as ws #Orange
+            }
+        }
+    }
+}
+internet -> ig
+ig -> router
+router -> ws
+ws -> dbs
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: US
+--></g></svg>
